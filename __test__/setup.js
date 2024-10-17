@@ -11,4 +11,5 @@ afterAll( async () => {
   await prisma.cars.deleteMany()
    
   server.close()
+  console.log('end test')
 })
